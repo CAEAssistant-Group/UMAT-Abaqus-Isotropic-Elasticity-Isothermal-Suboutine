@@ -49,7 +49,8 @@ C ELASTIC PROPERTIES
 	 EMOD=PROPS(1)
 	 ENU=PROPS(2)
 	 EBULK3=EMOD/(ONE-TWO*ENU)
-         !Hidden Content: You can get the complete code from our website for free. CAE Assistant com
+	 EG2=EMOD/(ONE+ENU)
+	 EG=EG2/TWO
 	 EG3=THREE*EG
 	 ELAM=(EBULK3-EG2)/THREE
 	 print*,'ELAM',ELAM
@@ -59,7 +60,11 @@ C
 	 DO K1=1,NDI
 	 DO K2=1,NDI
 	 DDSDDE(K2,K1)=ELAM
-	 !Hidden Content: You can get the complete code from our website for free. CAE Assistant com 
+	 END DO
+	 DDSDDE(K1,K1)=EG2+ELAM
+	 END DO
+	 DO K1=NDI+1, NTENS
+	 DDSDDE(K1,K1)=EG
 	 END DO
 C
 C CALCULATE STRESS
