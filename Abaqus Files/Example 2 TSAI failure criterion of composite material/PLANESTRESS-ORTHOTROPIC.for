@@ -75,9 +75,7 @@ C===============================================================================
          DO I=1,3
           Z=0.0
            DO J=1,3
-           Z=Z+DDSDDE(I,J)*DSTRAN(J)
-           END DO
-          STRESS(I)=STRESS(I)+Z
+            !Hidden Content: You can get the complete code from our website for free. CAE Assistant com
          END DO     
       
 C=================================================================================
@@ -103,10 +101,7 @@ C===============================================================================
         F66=1.0/(SU12**2.0)
         F6=0.0
 C       FAILURE SURFACE
-        F=F11*(STRESS(1))**2+F22*((STRESS(2))**2)+F66*((STRESS(3))**2
-     1)+2.0*F12*STRESS(1)*STRESS(2)+F1*STRESS(1)+F2*STRESS(2)+F6*
-     2STRESS(3)
-        STATEV(1)=SQRT(F)                 
+        !Hidden Content: You can get the complete code from our website for free. CAE Assistant com                 
 
       RETURN
       END
