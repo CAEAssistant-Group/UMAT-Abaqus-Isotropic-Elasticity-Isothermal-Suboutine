@@ -1,11 +1,13 @@
 # UMAT-Abaqus-Suboutine
-The UMAT subroutine in Abaqus serves as a solution for modeling materials that cannot be accurately represented using the standard Abaqus material library. For this project, we utilized this subroutine to study a 3D isotropic isothermal beam. Additional projects in this field can also be accessed on the following link.
+The UMAT subroutine in Abaqus serves as a solution for modeling materials that cannot be accurately represented using the standard Abaqus material library. For this project, we utilized this subroutine to study a 3D isotropic isothermal beam. 
 
 The problem, as shown in the figure, involves a 3D anisotropic isothermal beam. We analyzed it once using Abaqus's built-in material model and again using the UMAT Abaqus subroutine, comparing the stress patterns. The results matched exactly.
 
-Additionally, we’ve made all modeling files and a free training video on UMAT and related workshops available on our website for download.
+![isot](https://github.com/user-attachments/assets/5da23bf6-7088-4d54-bb64-07dcbeb6ee02)
 
-![Site](https://github.com/user-attachments/assets/a48b0dfa-c170-4559-ae3f-c335b5097583)
+Additionally, we’ve made all modeling files and a training video on UMAT and related workshops available on our website for download.
+
+![package-2](https://github.com/user-attachments/assets/44f887d9-a050-4834-b729-511a6ee6fe19)
 
 There’s also a free PDF offering a comprehensive explanation of the UMAT subroutine and workshops, which we highly recommend.
 
