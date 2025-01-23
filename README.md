@@ -3,7 +3,7 @@ The UMAT subroutine in Abaqus serves as a solution for modeling materials that c
 
 The problem, as shown in the figure, involves a 3D anisotropic isothermal beam. We analyzed it once using Abaqus's built-in material model and again using the UMAT Abaqus subroutine, comparing the stress patterns. The results matched exactly.
 
-<img src="[image_url](https://github.com/user-attachments/assets/deb16dea-1995-4e65-9027-9a47fc69e858)" width="400" height="300">
+<img src="[Iso](https://github.com/user-attachments/assets/deb16dea-1995-4e65-9027-9a47fc69e858)" width="400" height="300">
 
 
 Additionally, we’ve made all modeling files and a free training video on UMAT and related workshops available on our website for download.
