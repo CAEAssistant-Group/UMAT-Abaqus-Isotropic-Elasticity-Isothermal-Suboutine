@@ -13,6 +13,8 @@ There’s also a free PDF offering a comprehensive explanation of the UMAT subro
 
 ![PDF](https://github.com/user-attachments/assets/361139f9-77e4-402e-b630-5ae20a160310)
 
-We also have a free GitHub project on ductile damage analysis of Aluminum, which can be downloaded for free at the link below:
+In this project, we have aimed to provide everything you need to develop a UMAT code for isothermal elsticity. However, since our focus has been on analyzing material behavior, we have kept the loading setup simple. If you need to apply more complex loading or boundary conditions in your model, you may encounter certain limitations in Abaqus. To overcome these, you can use the DISP and VDISP subroutines.
 
-https://github.com/CAEAssistant-Group/Abaqus-Aluminum-Bending-Ductile-Damage-3D
+To learn more about these subroutines, you can download one of our free GitHub projects from the link below, which includes a DISP subroutine code and its corresponding INP file.
+
+https://github.com/CAEAssistant-Group/Disp-Fortran-Code-Abaqus-Subroutine
