@@ -12,3 +12,7 @@ Additionally, we’ve made all modeling files and a training video on UMAT and r
 There’s also a free PDF offering a comprehensive explanation of the UMAT subroutine and workshops, which we highly recommend.
 
 ![PDF](https://github.com/user-attachments/assets/361139f9-77e4-402e-b630-5ae20a160310)
+
+We also have a free GitHub project on ductile damage analysis of Aluminum, which can be downloaded for free at the link below:
+
+https://github.com/CAEAssistant-Group/Abaqus-Aluminum-Bending-Ductile-Damage-3D
